@@ -1,0 +1,149 @@
+.header{
+    background-color: #e9e8e6;
+    padding: 9px 0;
+ }
+ .about{
+     padding: 8vh 2vw;
+ }
+ .container-fluid {
+    //margin-top: 1%;
+     background-color: #e9e8e6;
+    // max-width: 100%;
+    padding: 10px 7px;
+ }
+ 
+.row h1 {
+     font-size: 32px;
+     /* font-weight: 300; */
+     text-transform: uppercase;
+ }
+ 
+  a {
+     color: black;
+ }
+ 
+
+ 
+ .menu ul {
+     display: flex;
+    
+ }
+ 
+ .nav-tabs {
+     --bs-nav-tabs-border-width: none;
+ }
+ 
+  .col-8 {
+    // text-align: center;
+     padding: 0 13%;
+ }
+ 
+  .nav-link{
+     transition-duration: 0.3s;
+     transition-delay: 2;
+     font-size: 15px;
+     font-weight: 600;
+     color: #888888;
+ }
+ 
+  .nav-link:hover {
+     color: black;
+     border-bottom:  2px solid #34b7a7;
+    
+ }
+ 
+ /* .header .nav-link:visited {
+     color: black;
+     border-bottom:  2px solid #34b7a7;
+ 
+ } */
+ 
+ .socialmidea i{
+     font-size: 21px;
+     font-weight: 300;
+     
+ }
+ 
+ .socialmidea i:hover{
+     color:#34b7a7;
+ }
+ .menuFunction{
+     display: none;
+ }
+ 
+ .mobile-menu{
+     display: none;
+ }
+ 
+ .headerSocialMidea-mobile{
+     display: none;
+ }
+
+ ul li a{
+    background-color: #88888800;
+ }
+ 
+ @media(max-width:480px){
+ 
+     .mobile-menu{
+         display: block;
+     }
+ 
+     .menu{
+         display: none;
+     }
+ 
+     .headerSocialMidea{
+         display: none;
+     } 
+ 
+     .mobile-menu{
+         transform: translate(105px, -18px);
+         /* transform: scaleX(2); */
+         position: absolute;
+         /* width: 354px; */
+         margin: 0 auto;
+         margin-left: -30px;
+         /* height: 583px; */
+          /* background: rgba(0, 0, 255, 0.3);  */
+     }
+ 
+     .mobile-menu ul{
+ 
+         background: #ced3d3;
+         padding-left: -1px;
+         /* transform: scaleX(3.5);
+         transform: scale(1.5); */
+         background: whitesmoke;
+         display: none; 
+         position: absolute;
+         width: 289px;
+         transform: translate(-78px, 32px);
+         text-align: start;
+         padding-top: 57px;
+         padding: 24px 22px;
+         line-height: 2;
+  
+     }
+ 
+     .mobile-menu a{
+         display: block;
+       
+         font-size: 20px;
+     }
+     .mobile-menu a i{
+         transform: translate(141px, 10px);
+     font-size: 30px;
+     }
+     
+     .headerSocialMidea-mobile{
+         position: absolute;
+         transform: translate(44px, -8px);
+         font-size: 28px;
+         display: block;
+     }
+     
+     .socialmidea-mobile i:hover{
+         color:#34b7a7;
+     }
+ }

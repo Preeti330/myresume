@@ -1,0 +1,109 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2">
+            <h1>
+                <a href="home.html">Preeti</a>
+            </h1>
+        </div>
+        <div class="col-8 menu text-center" id="menudiv">
+            <a href="#" class="menuFunction" onclick="showMenu()">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </a>
+            <ul class="nav nav-tabs" id="mymenu">
+                <li class="nav-item linkdecoraction">
+                    <a class="nav-link " aria-current="page" routerLink="home" routerLinkActive="active">Home</a>
+                </li>
+                <li class="nav-item linkdecoraction">
+                <a class="nav-link linkdecoraction" routerLink="/about" routerLinkActive="active" href='#about'>About</a>
+                </li>
+                <li class="nav-item linkdecoraction">
+                    <a class="nav-link" routerLink="/resume" routerLinkActive="active" >Resume</a>
+                </li>
+                <li class="nav-item linkdecoraction">
+                    <a class="nav-link" routerLink="/service" >Project</a>
+                </li>
+
+                <li class="nav-item linkdecoraction">
+                    <a class="nav-link" routerLink="/protfilo">Tools</a>
+                </li>
+                <li class="nav-item linkdecoraction">
+                    <a class="nav-link" routerLink="/contact">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="col-2 text-end">
+            <div class="headerSocialMidea">
+                <a class="socialmidea" href="https://github.com/Preeti330">
+                    <i class="fab fa-github-square"></i>
+                </a>
+                <!-- <a class="socialmidea" href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook"></i>
+                </a> -->
+                <a class="socialmidea" href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="socialmidea" href="https://www.linkedin.com/in/preeti-reddy-079b84200/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a class="socialmidea-mobile" href="https://docs.google.com/document/d/1b9XcUegjgpNYcO2Y2kSigg3JbvqDWwuy/edit?usp=drive_link&ouid=115207582557346024956&rtpof=true&sd=true">
+                    <i class="fa-solid fa-download"></i>
+                </a>
+
+            </div>
+        </div>
+
+
+        <div class="col-8 mobile-menu text-center" id="mobile-menu">
+            <a href="#" class="menuFunction" (click)="navigate('')">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </a>
+            <ul class="nav nav-tabs" id="mobile-menu-list">
+                <li class="nav-item linkdecoraction">
+                    <a class="nav-link linkdecoraction" routerLinkActive="active"  (click)="navigate('/home')">Home</a>
+                </li>
+
+                <li class="nav-item linkdecoraction">
+                    <a class="nav-link linkdecoraction" routerLinkActive="active"  (click)="navigate('/about')">About</a>
+                </li>
+                <li class="nav-item linkdecoraction">
+                    <a class="nav-link" routerLinkActive="active"  (click)="navigate('/resume')">Resume</a>
+                </li>
+                <li class="nav-item linkdecoraction">
+                    <a class="nav-link" routerLinkActive="active"  (click)="navigate('/service')">Project</a>
+                </li>
+
+                <li class="nav-item linkdecoraction">
+                    <a class="nav-link" routerLinkActive="active"  (click)="navigate('/protfilo')">Tools</a>
+                </li>
+                <li class="nav-item linkdecoraction">
+                    <a class="nav-link"   (click)="navigate('/contact')">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="col-2">
+            <div class="headerSocialMidea-mobile">
+                <a class="socialmidea-mobile" href="https://github.com/Preeti330">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <!-- <a class="socialmidea-mobile" href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook"></i>
+                </a> -->
+                <a class="socialmidea-mobile" href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="socialmidea-mobile" href="https://www.linkedin.com/in/preeti-reddy-079b84200/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a class="socialmidea-mobile" href="https://docs.google.com/document/d/1b9XcUegjgpNYcO2Y2kSigg3JbvqDWwuy/edit?usp=drive_link&ouid=115207582557346024956&rtpof=true&sd=true">
+                    <i class="fa-solid fa-download"></i>
+                </a>
+
+            </div>
+        </div>
+
+
+    </div>
+  </div>

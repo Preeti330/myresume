@@ -1,0 +1,106 @@
+.container-fluid{
+    padding: 7vh 7vw;
+}
+
+.conctactDetails{
+    margin: 7% 0 0 0;
+}
+
+.contcatIcon{
+    width: 100px;
+    height: 100px;
+}
+
+.contcatIcon{
+    width: 45px;
+    height: 45px;
+    background: rgb(58, 183, 162);
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.contcatIcon i{
+    color: #fff;
+}
+
+ .address h4{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0 0 0 64px;
+    margin-top: -48px;
+}
+
+ .address p{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 0 0 63px;
+    /* margin-top: -5px; */
+    line-height: 1;
+    color: #555555;
+}
+
+.address{
+    margin: 11% 0 11% 0;
+}
+
+.contcatIcon:hover{
+    background-color: rgb(45, 144, 128);
+}
+
+.getDetails.inputFeild input{
+    width: 49.5%;
+    border-radius: 5px;
+    border: 1.5px solid;
+    padding: 8px 7px;
+    height: 44px;
+}
+
+.getDetails input{
+    width: 100%;
+    height: 44px;
+    border-radius: 5px;
+    border: 1.5px solid;
+    padding: 8px 7px;
+}
+.getDetails{
+    margin: 5% 0 -2% 0;
+}
+
+.getDetails.message input{
+    /* padding-bottom: 89px; */
+    padding-bottom: 84px;
+    padding-top: 20px;
+}
+
+input:hover{
+    border:2px solid rgb(45, 144, 128);
+}
+
+.getDetails.inputFeild input:hover{
+    border:2px solid rgb(45, 144, 128);
+}
+
+.sendmsg{
+    margin-left: 627px;
+    margin-top: -20px;
+}
+
+@media(max-width:480px){
+    input{
+        width: 100%;
+    }
+    .getDetails.inputFeild input{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .sendmsg{
+        text-align: center;
+        margin: 26px 0;
+        margin-bottom: -24px;
+    }
+
+  
+}

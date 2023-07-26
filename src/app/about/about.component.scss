@@ -1,0 +1,76 @@
+img{
+    width: 100%;
+    height: auto;
+}
+
+.abouttext h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #555555;
+}
+
+.abouttext p{
+    font-weight: 300;
+    text-align: start;
+    line-height: 1.3;
+    text-align: start;
+}
+
+.progress{
+    height: 10px;
+    border-radius: 0%;
+    margin-top: 3%;
+    background: #f3f3f3;
+    --bs-progress-bar-bg: #6dc2a1;
+}
+
+.skillname{
+    position: relative;
+    padding-bottom: 3%;
+}
+
+.skillname span{
+    /* text-transform: uppercase;
+    font-weight: 500;
+    color: #222222; */
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #222222;
+    font-family: italic;
+    font-size: 12px;
+
+}
+.skillname i{
+    position: absolute;
+    /* right: -44px; */
+    left: 93%;
+}
+
+.container-fluid{
+    padding: 7vh 7vw;
+}
+
+.sectionTitle h1::after {
+    bottom: -4%;
+    left: 13%;
+    height: 3px;
+    width: 50px;
+}
+// .textsection{
+//     position: absolute;
+//     left: 22%;
+//     margin: 2% 0;
+// }
+
+@media(max-width:480px){
+
+    .abouttext{
+        padding-top: 8%;
+    }
+    .right{
+        right: 11%;
+    }
+     .left{
+        left: -11%;
+    }
+}

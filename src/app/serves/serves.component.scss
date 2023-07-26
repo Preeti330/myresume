@@ -1,0 +1,131 @@
+.container-fluid{
+    padding: 7vh 7vw;
+}
+
+.serviceCard{
+    background: white;
+    box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%);
+    text-align: center;
+    /* padding: 25% 0; */
+    padding: 22% 0 8% 0;
+}
+.lastcard{
+    height: 95%;
+}
+
+.serviceIcon{
+    background: #f5f5f5;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    /* text-align: center; */
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.serviceIcon i{
+    font-size: 32px;
+    text-align: center;
+    margin: 23% 0;
+}
+
+.blue{
+   // color:#47aeff;
+   color:#B00C16
+}
+.divblue:hover{
+  //  background-color:#47aeff ;
+    background-color:#B00C16 ;
+}
+.divblue:hover i, .blue:hover{
+    color:white;
+}
+
+.orange{
+   // color:#ffa76e
+   color:#2B970C
+}
+.divorange:hover{
+    // background-color:#ffa76e ;
+    background-color:#2B970C ;
+}
+.divorange:hover i, .orange:hover{
+    color:white;
+}
+
+
+.hotpink{
+    color: #e80368;
+}
+.divhotpink:hover{
+    background-color:#e80368 ;
+}
+.divhotpink:hover i, .orange:hover{
+    color:white;
+}
+
+.yellow{
+    color:#ffbb2c;
+}
+
+.divyellow:hover{
+    background-color:#ffbb2c ;
+}
+.divyellow:hover i,.yellow:hover{
+    color: white;
+}
+
+.lightred{
+    color:#ff5828;
+}
+
+.divlightred:hover{
+    background-color:#ff5828 ;
+}
+.divlightred:hover i,.lightred:hover{
+    color:white;
+}
+
+.skyblue{
+    color:#11dbcf;
+}
+.divskyblue:hover{
+    background-color:#11dbcf ;
+}
+.divskyblue:hover i,.skyblue:hover{
+    color:white;
+}
+.serviceText{
+    text-align: center;
+    margin: 6% 4%;
+}
+
+
+
+
+.serviceText h4{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 3% 0;
+}
+.servicerow{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.serviceText p{
+
+    font-family: Open spans;
+    font-size: 17px;
+    font-weight: 500;
+    color: #6e6767;
+}
+.resumeList{
+    text-align: initial;
+}
+@media(max-width:480px)
+{
+    .serviceCard{
+        margin-bottom : 8%;
+    }
+}

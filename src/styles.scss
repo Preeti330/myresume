@@ -1,1 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+p {
+    font-family: Open spans;
+    font-size: 17px;
+    font-weight: 500;
+    color: #6e6767;
+    /* color: #444444; */
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.aboutbtn{
+    background-color: rgb(58, 183, 162);
+    padding: 9px 30px;;
+    color: white;
+    font-weight: 500;
+    border-radius: 50px;
+    line-height: 4;
+    text-align: center;
+    /* margin-left: -2%; */
+}
+
+.aboutbtn:hover{
+    background-color: rgb(45, 144, 128);
+
+}
+
+.sectionTitle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2%;
+   // padding-top: 4%;
+}
+
+.sectionTitle h1{
+    font-size: 31px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    /* color: #6e6767; */
+    color:black;  
+}
+
+.sectionTitle p{
+    color: #6e6767;
+    text-align: center;
+    font-size: 19px;
+    padding-top: 2%;
+   
+}
+
+.sectionTitle h1::after{
+    content: '';
+    position: absolute;
+    bottom: -44%;
+    left: 23%;
+    height: 3px;
+    width: 50px;
+    /* color: #a3062a; */
+    background-color: #34b7a7;
+   
+}
+
